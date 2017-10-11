@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="simstyle.css">
+    <link rel="icon" href="images/mass.jpeg">
+    <title>Mass</title>
+</head>
+
+<body class="mass">
+    <div class="wrapper">
+        <header class="unit-header">
+            <h1>Mass Converter</h1>
+        </header>
+        <div class="unit-main">
+            <h3>Kilogram(s)</h3>
+            <p><input id="kilograms" type="number" placeholder="Kilogram(s)" min="0" oninput="convertMass(id, value)" onchange="convertMass(id, value)"></p>
+            <h3>Gram(s)</h3>
+            <p><input id="grams" type="number" placeholder="Gram(s)" min="0" oninput="convertMass(id, value)" onchange="convertMass(id, value)"></p>
+            <h3>Milligram(s)</h3>
+            <p><input id="milligrams" type="number" placeholder="Milligram(s)" min="0" oninput="convertMass(id, value)" onchange="convertMass(id, value)"></p>
+            <h3>Microgram(s)</h3>
+            <p><input id="micrograms" type="number" placeholder="Microgram(s)" min="0" oninput="convertMass(id, value)" onchange="convertMass(id, value)"></p>
+            <h3>Nanogram(s)</h3>
+            <p><input id="nanograms" type="number" placeholder="Nanogram(s)" min="0" oninput="convertMass(id, value)" onchange="convertMass(id, value)"></p>
+            <h3>Metric Ton(s)</h3>
+            <p><input id="metrictons" type="number" placeholder="Metric Ton(s)" min="0" oninput="convertMass(id, value)" onchange="convertMass(id, value)"></p>
+        </div>
+        <ul class="breadcrumb">
+            <li><a href="mass.html">Mass</a></li>
+            <li><a href="length.html">Length</a></li>
+            <li><a href="time.html">Time</a></li>
+            <li><a href="temperature.html">Temperature</a></li>
+        </ul>
+        <footer role="contentinfo" class="footer">
+            <p>&copy; Ozobia Nwadibia 2017</p>
+        </footer>
+
+    </div>
+    <script type="text/javascript" src="simscript.js"></script>
+</body>
+
+</html>

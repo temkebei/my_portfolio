@@ -1,0 +1,158 @@
+html,
+body {
+    background: radial-gradient(black, white);
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+    color: white;
+}
+
+.author-name {
+    text-shadow: 2px 2px 5px black;
+    font-size: 400%;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.job-title {
+    font-weight: 300;
+    font-variant: small-caps;
+    margin-bottom: 30px;
+}
+
+.profilePic {
+    margin-top: 35px;
+    border-radius: 5px;
+}
+
+.mainnav {
+    overflow: hidden;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.mainnav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+.mainnav a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 560px) {
+    .mainnav a {
+        padding: 8px 10px;
+        font-size: 100%;
+    }
+}
+
+.col-md-4 {
+    margin-bottom: 70px;
+}
+
+.mainContent {
+    font-size: 150%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mainContent #projects {
+    border-bottom: 5px solid black;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.project-pic {
+    box-shadow: 10px 20px 50px black;
+}
+
+.socialMedia {
+    margin-bottom: 100px;
+    font-size: 125%;
+}
+
+.my-pitch {
+    font-size: 140%;
+}
+
+#contactInfo {
+    color: black;
+    font-weight: 900;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.fa {
+    margin: 10px;
+}
+
+.fa-linkedin {
+    color: #0D77B7;
+}
+
+.fa-twitter {
+    color: #429CD6;
+}
+
+.fa-github {
+    color: #782388;
+}
+
+.fa-github:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover {
+    text-decoration: underline;
+}
+
+.replit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    font-weight: bolder;
+    color: #04222E;
+    line-height: 1.1;
+}
+
+#btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: none;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 100;
+    display: none;
+    color: white;
+}
+
+#btn i {
+    font-size: 50px;
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    line-height: 50px;
+    background: black;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+    .project-pic {
+        width: 100%;
+    }
+}

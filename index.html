@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/Ozobia.jpg">
+    <title>Ozobia Nwadibia's Website</title>
+</head>
+
+<body>
+    <div class="container">
+        <header role="banner" class="row">
+            <div class="col-md-12">
+                <h1 class="author-name text-center">Ozobia Nwadibia</h1>
+                <h2 class="job-title text-center">Front-End Web Developer</h2>
+
+                <nav class="mainnav text-center" id="myMainnav" role="navigation">
+                    <a href="#aboutMe">About Me</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contactInfo">Lets Connect</a>
+                </nav>
+
+            </div>
+        </header>
+        <main role="main">
+            <article role="article">
+                <section>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="img/Ozobia.jpg" class="profilePic img-responsive center-block">
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="mainContent row text-center">
+                        <div class="col-md-12 ">
+                            <p id="aboutMe">Hi there! My name is Ozobia Nwadibia and I live in Houston, Texas. I am a student of Web Development, principally Front-End Web Development specializing in HTML5, CSS3, JavaScript and JQuery with Git and Github. Armed with
+                                an active subscription to Lynda.com, I am constantly learning and applying the concepts learned. In addition to the foregoing, I am an avid runner. Thanks for stopping by.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mainContent row text-center">
+                        <div class="col-md-12">
+                            <p id="projects">My Featured Work</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="top-display">
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <a href="Bookmarks/beginHere.htm" target="_blank"><img class="img-responsive project-pic " src="img/bookmarks.png " alt="Personal Bookmarks "></a>
+                            <h3 class="text-uppercase ">Personal Bookmarks</h3>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="Game Score Keeper/score.html" target="_blank"><img class="img-responsive project-pic " src="img/score.png " alt="Score Counter "></a>
+                            <h3 class="text-uppercase ">Score Counter </h3>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="S.I.Measurements/mass.html" target="_blank"><img class="img-responsive project-pic " src="img/measurements.png " alt="S.I. Units "></a>
+                            <h3 class="text-uppercase ">S.I. Units &amp; Measurements</h3>
+                        </div>
+                    </div>
+                </section>
+                <section id="socialMedia ">
+                    <div class="socialMedia row text-center">
+                        <div class="col-md-12 ">
+                            <p>Below, is my contact information. I'd be pleased to hear from you. <span class="my-pitch ">Hire Me!</span></p>
+                            <p>Email: <a id="contactInfo" href="mailto:ozobia.cn3@gmail.com ">ozobia.cn3@gmail.com</a></p>
+                            <p>You can find me on these platforms.</p>
+                            <a href="https://www.linkedin.com/in/ozobianwadibia" data-toggle="tooltip" data-placement="left" title="LinkedIn" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/ozobianwadibia" data-toggle="tooltip" data-placement="bottom" title="Twitter" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                            <a href="https://github.com/ozobianwadibia" data-toggle="tooltip" data-placement="bottom" title="Github" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+                            <a href="https://repl.it/@ironcladdragon" data-toggle="tooltip" data-placement="right" title="Repl.It" target="_blank"><span class="replit">Repl&period;It</span></i></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <!-- This is the icon for the scroll function -->
+            <a href="#" onclick="scrollUp()" id="btn"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+        </main>
+
+        <footer role="contentinfo" class="row">
+            <div class="col-md-12">
+                <p>&copy; Ozobia Nwadibia 2017</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("btn").style.display = "block";
+            } else {
+                document.getElementById("btn").style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function scrollUp() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        // JQuery code for the tooltip (social media buttons)
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</body>
+
+</html>

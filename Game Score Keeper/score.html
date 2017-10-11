@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <link rel="stylesheet" href="scorestyles.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+    <link rel="icon" href="score.jpeg">
+    <title>Score Keeper</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>A Simple Game Score Counter</h1>
+        </header>
+        <div class="first">
+            <h2>Team A</h2>
+            <button class="button" onClick="teamA5()">+5 Points</button>
+            <button class="button" onClick="teamA4()">+4 Points</button>
+            <button class="button" onClick="teamA3()">+3 Points</button>
+            <button class="button" onClick="teamA2()">+2 Points</button>
+            <button class="button" onClick="teamA1()">+1 Point</button>
+            <button class="score"><a id="teamA">0</a></button>
+            <button class="reset" onClick="resetA()">Reset</button>
+        </div>
+
+        <div class="second">
+            <h2>Team B</h2>
+            <button class="button" onClick="teamB5()">+5 Points</button>
+            <button class="button" onClick="teamB4()">+4 Points</button>
+            <button class="button" onClick="teamB3()">+3 Points</button>
+            <button class="button" onClick="teamB2()">+2 Points</button>
+            <button class="button" onClick="teamB1()">+1 Point</button>
+            <button class="score"><a id="teamB">0</a></button>
+            <button class="reset" onClick="resetB()">Reset</button>
+        </div>
+    </div>
+    <script src="scorescript.js"></script>
+</body>
+
+</html>
