@@ -1,6 +1,6 @@
 html,
 body {
-    background: radial-gradient(black, white);
+    background-color: grey;
     font-size: 100%;
     font-family: 'Lato', sans-serif;
     line-height: 2;
