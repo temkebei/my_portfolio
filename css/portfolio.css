@@ -1,10 +1,10 @@
 html,
 body {
-    background-color: grey;
+    background-color: white;
     font-size: 100%;
     font-family: 'Lato', sans-serif;
     line-height: 2;
-    color: white;
+    color: black;
 }
 
 .author-name {
@@ -135,6 +135,7 @@ body {
 
 #btn i {
     font-size: 50px;
+    color: black;
 }
 
 footer {
