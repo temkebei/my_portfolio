@@ -2,31 +2,26 @@
     box-sizing: border-box;
 }
 
-
-/*
- * {
-    outline: 1px solid blue;
-} 
-*/
-
-
 .temperature {
-    background: url("images/temperature.jpeg") no-repeat fixed center;
+    background: url("../assets/images/temperature.jpeg") no-repeat fixed center;
 }
 
 .time {
-    background: url("images/time.jpeg") no-repeat fixed center;
+    background: url("../assets/images/time.jpeg") no-repeat fixed center;
 }
 
 .mass {
-    background: url("images/mass.jpeg") no-repeat fixed center;
+    background: url("../assets/images/mass.jpeg") no-repeat fixed center;
 }
 
 .length {
-    background: url("images/length.jpeg") no-repeat fixed center;
+    background: url("../assets/images/length.jpeg") no-repeat fixed center;
 }
 
-.temperature, .time, .mass, .length {
+.temperature,
+.time,
+.mass,
+.length {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
