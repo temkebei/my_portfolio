@@ -1,7 +1,6 @@
 html,
 body {
-  font-size: 100%;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 2;
   color: black;
 }
@@ -32,13 +31,14 @@ body {
   margin: 0 auto 3rem auto;
 }
 
+.aboutMe {
+  padding: 1rem 0 0 0;
+  line-height: 2;
+  font-size: 120%;
+}
 .socialMedia {
   margin-bottom: 6.25rem;
   font-size: 125%;
-}
-
-.myPitch {
-  font-size: 110%;
 }
 
 #email {
@@ -108,10 +108,4 @@ footer {
   right: 0;
   margin-bottom: 0;
   text-align: center;
-}
-
-@media screen and (max-width: 991px) {
-  .projectPic {
-    width: 100%;
-  }
 }
