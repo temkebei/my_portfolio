@@ -1,77 +1,44 @@
 html,
 body {
-    background-image: url("../assets/images/lightWood.jpg");
     font-size: 100%;
     font-family: 'Lato', sans-serif;
     line-height: 2;
     color: black;
 }
 
-.author-name {
-    text-shadow: 2px 2px 5px black;
-    font-size: 400%;
-    font-weight: 100;
+.authorName {
+    margin-top: 3rem;
+    font-weight: 400;
     text-transform: uppercase;
+    color: white;
 }
 
-.job-title {
-    font-weight: 300;
+.jobTitle {
+    font-weight: 200;
     font-variant: small-caps;
-    margin-bottom: 30px;
 }
 
-.profilePic {
-    margin-top: 35px;
+.headerBackground {
+    background-color: aqua;
+    height: 15rem;
+    border: 5px solid black;
 }
 
-.mainnav {
-    overflow: hidden;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
 }
-
-.mainnav a {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 120%;
-}
-
-.mainnav a:hover {
-    text-decoration: underline;
-}
-
-@media screen and (max-width: 560px) {
-    .mainnav a {
-        padding: 8px 10px;
-        font-size: 100%;
-    }
-}
-
 .col-md-4 {
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
 }
 
-.mainContent {
-    font-size: 150%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+
+ .projects {
+    border-bottom: 0.3125rem solid black;
+    width: 60%;
+    margin: 0 auto 3rem auto;
 }
 
-.mainContent #projects {
-    border-bottom: 5px solid black;
-    width: 25%;
-    margin: 0 auto;
-}
-
-.project-pic {
-    box-shadow: 10px 20px 50px black;
-}
 
 .socialMedia {
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
     font-size: 125%;
 }
 
@@ -83,13 +50,13 @@ body {
     color: black;
     font-weight: 900;
     background-color: white;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 5px;
+    padding: 0.625rem;
+    border: 0.0625rem solid black;
+    border-radius: 0.3125rem;
 }
 
 .fa {
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 .fa-linkedin {
@@ -110,38 +77,30 @@ body {
     text-decoration: underline;
 }
 
-.replit {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 110%;
-    font-weight: bolder;
-    color: #04222E;
-    line-height: 1.1;
-}
-
 #btn {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 0.9375rem;
     background: none;
     text-align: center;
     text-decoration: none;
     position: fixed;
-    bottom: 80px;
-    right: 40px;
+    bottom: 5rem;
+    right: 2.5rem;
     z-index: 100;
     display: none;
     color: white;
 }
 
 #btn i {
-    font-size: 50px;
+    font-size: 3.125rem;
     color: black;
 }
 
 footer {
     position: fixed;
-    height: 50px;
-    line-height: 50px;
+    height: 3.125rem;
+    line-height: 3.125rem;
     background: black;
     color: white;
     bottom: 0;
@@ -154,5 +113,12 @@ footer {
 @media screen and (max-width: 991px) {
     .project-pic {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .mainnav a {
+        padding: 0.5rem 0.625rem;
+        font-size: 100%;
     }
 }

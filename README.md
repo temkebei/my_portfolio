@@ -1,1 +1,1 @@
-# my_portfolio
+### This is my portfolio or rather will be my portfolio when I am done. I am in the process of rebuilding it and hope to finish it very soon.
