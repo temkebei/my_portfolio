@@ -37,8 +37,8 @@
     <div class="container-fluid">
       <header role="banner" class="row headerBackground">
         <div class="col-md-12">
-          <h1 class="authorName text-center">Ozobia Nwadibia</h1>
-          <h1 class="jobTitle text-center">Web Developer</h1>
+          <h2 class="authorName text-center">Ozobia Nwadibia</h2>
+          <h3 class="jobTitle text-center">Web Developer</h3>
         </div>
       </header>
     </div>
@@ -47,13 +47,13 @@
       <article role="article">
         <section class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
               <img
                 src="./assets/images/Ozobia.jpg"
-                class="img-fluid rounded-circle mx-auto d-block"
+                class="img-fluid rounded-circle profilePic"
               />
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Obcaecati ex odio harum tenetur dolor quae aliquam nobis
@@ -66,15 +66,6 @@
             </div>
           </div>
         </section>
-        <!-- container -->
-
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-md-12">
-              <p class="projects">My Featured Work</p>
-            </div>
-          </div>
-        </div>
         <!-- container -->
 
         <div class="container">
@@ -112,7 +103,6 @@
             </div>
           </div>
 
-        <section id="mid-display">
           <div class="row text-center">
             <div class="col-md-4">
               <a href="https://placeholder.com" target="_blank"
@@ -142,24 +132,17 @@
               <h4 class="text-uppercase">Kudos</h4>
             </div>
           </div>
-        </section>
-    </div>
-    <!-- container -->
+        </div>
+        <!-- container -->
 
-        <section id="socialMedia">
+        <div class="container">
           <div class="socialMedia row text-center">
             <div class="col-md-12">
               <p>
-                Below, is my contact information. I'd be pleased to hear from
-                you. <span class="my-pitch">Hire Me!</span>
-              </p>
-              <p>
-                Email:
-                <a id="contactInfo" href="mailto:ozobia.cn3@gmail.com "
+                <a id="email" href="mailto:ozobia.cn3@gmail.com "
                   >ozobia.cn3@gmail.com</a
                 >
               </p>
-              <p>You can find me on these platforms.</p>
               <a
                 href="https://www.linkedin.com/in/ozobianwadibia"
                 data-toggle="tooltip"
@@ -186,7 +169,8 @@
               ></a>
             </div>
           </div>
-        </section>
+        </div>
+        <!-- container -->
       </article>
       <!-- This is the icon for the scroll function -->
       <a href="#" onclick="scrollUp()" id="btn"
@@ -194,16 +178,19 @@
       ></a>
     </main>
 
-    <footer role="contentinfo" class="row">
-      <div class="col-md-12">
-        <p>
-          &copy; Ozobia Nwadibia&nbsp;&nbsp;&nbsp;<script
-            type="text/javascript"
-          >
-            document.write(new Date().getFullYear());
-          </script>
-        </p>
+    <footer role="contentinfo">
+      <div class="container-fluid">
+        <div class="col-md-12">
+          <p>
+            &copy; Ozobia Nwadibia&nbsp;&nbsp;<script
+              type="text/javascript"
+            >
+              document.write(new Date().getFullYear());
+            </script>
+          </p>
+        </div>
       </div>
+      <!-- container-fluid -->
     </footer>
 
     <script>
@@ -227,6 +214,7 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
+
       // JQuery code for the tooltip (social media buttons)
       $(document).ready(function() {
         $('[data-toggle="tooltip"]').tooltip();

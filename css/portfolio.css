@@ -1,124 +1,117 @@
 html,
 body {
-    font-size: 100%;
-    font-family: 'Lato', sans-serif;
-    line-height: 2;
-    color: black;
+  font-size: 100%;
+  font-family: "Lato", sans-serif;
+  line-height: 2;
+  color: black;
 }
 
 .authorName {
-    margin-top: 3rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: white;
+  margin-top: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .jobTitle {
-    font-weight: 200;
-    font-variant: small-caps;
+  font-weight: 200;
+  font-variant: small-caps;
 }
 
 .headerBackground {
-    background-color: aqua;
-    height: 15rem;
-    border: 5px solid black;
+  height: 15rem;
+  line-height: 15rem;
 }
 
-}
 .col-md-4 {
-    margin-bottom: 4.375rem;
+  margin-bottom: 4.375rem;
 }
 
-
- .projects {
-    border-bottom: 0.3125rem solid black;
-    width: 60%;
-    margin: 0 auto 3rem auto;
+.projects {
+  border-bottom: 0.3125rem solid black;
+  width: 60%;
+  margin: 0 auto 3rem auto;
 }
-
 
 .socialMedia {
-    margin-bottom: 6.25rem;
-    font-size: 125%;
+  margin-bottom: 6.25rem;
+  font-size: 125%;
 }
 
-.my-pitch {
-    font-size: 140%;
+.myPitch {
+  font-size: 110%;
 }
 
-#contactInfo {
-    color: black;
-    font-weight: 900;
-    background-color: white;
-    padding: 0.625rem;
-    border: 0.0625rem solid black;
-    border-radius: 0.3125rem;
+#email {
+  color: black;
+  font-weight: 900;
+  background-color: white;
+  padding: 0.625rem;
+  border: 0.0625rem solid black;
+  border-radius: 0.3125rem;
+}
+
+#email:hover {
+  background-color: black;
+  color: white;
 }
 
 .fa {
-    margin: 0.625rem;
+  margin: 0.625rem;
 }
 
 .fa-linkedin {
-    color: #0D77B7;
+  color: #0d77b7;
 }
 
 .fa-twitter {
-    color: #429CD6;
+  color: #429cd6;
 }
 
 .fa-github {
-    color: #782388;
+  color: #782388;
 }
 
 .fa-github:hover,
 .fa-twitter:hover,
 .fa-linkedin:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #btn {
-    width: 1.875rem;
-    height: 1.875rem;
-    border-radius: 0.9375rem;
-    background: none;
-    text-align: center;
-    text-decoration: none;
-    position: fixed;
-    bottom: 5rem;
-    right: 2.5rem;
-    z-index: 100;
-    display: none;
-    color: white;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 0.9375rem;
+  background: none;
+  text-align: center;
+  text-decoration: none;
+  position: fixed;
+  bottom: 5rem;
+  right: 2.5rem;
+  z-index: 100;
+  display: none;
+  color: white;
 }
 
 #btn i {
-    font-size: 3.125rem;
-    color: black;
+  font-size: 3.125rem;
+  color: black;
 }
 
 footer {
-    position: fixed;
-    height: 3.125rem;
-    line-height: 3.125rem;
-    background: black;
-    color: white;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-bottom: 0;
-    text-align: center;
+  position: fixed;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  background: black;
+  color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 @media screen and (max-width: 991px) {
-    .project-pic {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 560px) {
-    .mainnav a {
-        padding: 0.5rem 0.625rem;
-        font-size: 100%;
-    }
+  .projectPic {
+    width: 100%;
+  }
 }
