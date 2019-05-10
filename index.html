@@ -33,7 +33,7 @@
     <title>Ozobia Nwadibia's Website</title>
   </head>
 
-  <body>
+  <body id="body">
     <div class="container-fluid">
       <header role="banner" class="row headerBackground">
         <div class="col-md-12">
@@ -137,6 +137,8 @@
                   >ozobia.cn3@gmail.com</a
                 >
               </p>
+              <button class="btn btn-outline-dark" onclick="changeColor()">View Mode</button>
+              <br> <br>
               <a
                 href="https://www.linkedin.com/in/ozobianwadibia"
                 data-toggle="tooltip"
@@ -168,7 +170,7 @@
       </article>
       <!-- This is the icon for the scroll function -->
       <a href="#" onclick="scrollUp()" id="btn"
-        ><i class="fa fa-arrow-circle-up" aria-hidden="true"></i
+        ><i id="scrollButton" class="fa fa-arrow-circle-up" aria-hidden="true"></i
       ></a>
     </main>
 

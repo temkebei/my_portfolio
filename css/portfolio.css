@@ -2,7 +2,11 @@ html,
 body {
   font-family: "Roboto", sans-serif;
   line-height: 2;
-  color: black;
+}
+
+.viewMode {
+    background-color:black;
+    color: white;
 }
 
 .authorName {
@@ -111,13 +115,12 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    .name {
-        display: none;
-    }
-    .aboutMe {
-        margin-top: -5rem;
-        line-height: 1.75;
-        font-size: 100%;
-    }
-
+  .name {
+    display: none;
+  }
+  .aboutMe {
+    margin-top: -5rem;
+    line-height: 1.75;
+    font-size: 100%;
+  }
 }

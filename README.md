@@ -1,1 +1,1 @@
-### This is my portfolio or rather will be my portfolio when I am done. I am in the process of rebuilding it and hope to finish it very soon.
+This is my portfolio. It contains a few projects that are all hosted here on github except for one on heroku
