@@ -28,7 +28,7 @@
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
       crossorigin="anonymous"
     />
-    
+
     <!-- FAVICON
 ---------------------------------------------------->
     <link rel="icon" href="./assets/images/Ozobia.png" />
@@ -156,7 +156,10 @@
                   >ozobia.cn3@gmail.com</a
                 >
               </p>
-              <button class="btn btn-outline-dark" onclick="changeColor()">
+              <button
+                class="btn btn-outline-dark"
+                onclick="changeBodyColor(); changeScrollButton(); changeFooterColor()"
+              >
                 View Mode
               </button>
               <br />
@@ -194,13 +197,13 @@
       <a href="#" onclick="scrollUp()" id="btn"
         ><i
           id="scrollButton"
-          class="fa fa-arrow-circle-up"
+          class="fas fa-arrow-circle-up"
           aria-hidden="true"
         ></i
       ></a>
     </main>
 
-    <footer role="contentinfo">
+    <footer id="footer" role="contentinfo">
       <div class="container-fluid">
         <div class="col-md-12">
           <p>
@@ -236,16 +239,17 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
-
-      // JQuery code for the tooltip (social media buttons)
-      $(document).ready(function() {
-        $('[data-toggle="tooltip"]').tooltip();
-      });
     </script>
 
     <script src="js/jQuery.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="assets/bootstrap/bootstrap_js/bootstrap.min.js"></script>
+    <script>
+      // JQuery code for the tooltip (social media buttons)
+      $(document).ready(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
     <script src="js/portfolio.js"></script>
   </body>
 </html>

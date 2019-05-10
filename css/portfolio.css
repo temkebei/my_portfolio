@@ -9,6 +9,12 @@ body {
     color: white;
 }
 
+.footerMode {
+  background-color:white;
+  color: black;
+}
+
+
 .authorName {
   margin-top: 3rem;
   font-weight: 400;
@@ -96,7 +102,7 @@ body {
   color: white;
 }
 
-#btn i {
+#scrollButton {
   font-size: 3.125rem;
   color: black;
 }
