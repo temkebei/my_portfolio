@@ -59,19 +59,19 @@ body {
   color: white;
 }
 
-.fa {
+.fab {
   margin: 0.625rem;
 }
 
 .fa-linkedin {
   color: #0d77b7;
-}
+} 
 
-.fa-twitter {
+ .fa-twitter {
   color: #429cd6;
-}
+} 
 
-.fa-github {
+ .fa-github {
   color: #782388;
 }
 
