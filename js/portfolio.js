@@ -19,21 +19,10 @@ function scrollUp() {
   document.documentElement.scrollTop = 0;
 }
 
-
-
-
-// // JQuery code for the tooltip (social media buttons)
-// $(document).ready(function() {
-//   $('[data-toggle="tooltip"]').tooltip();
-// });
-
-
-
+// little script to activate the tooltips
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
-
-
 
 
 //function to toggle body classes
