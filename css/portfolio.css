@@ -35,10 +35,18 @@ body {
   margin-bottom: 4.375rem;
 }
 
-.projects {
-  border-bottom: 0.3125rem solid black;
-  width: 60%;
-  margin: 0 auto 3rem auto;
+ .projectPic {
+  overflow: hidden;
+  position: relative;
+} 
+
+.projectPic img {
+  transition: all 0.4s;
+  max-width: 100%;
+}
+
+.projectPic img:hover {
+  transform: scale(1.04);
 }
 
 .aboutMe {
