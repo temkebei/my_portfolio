@@ -1,13 +1,10 @@
- // When the user scrolls down 20px from the top of the document, show the button
- window.onscroll = function() {
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {
   scrollFunction();
 };
 
 function scrollFunction() {
-  if (
-    document.body.scrollTop > 20 ||
-    document.documentElement.scrollTop > 20
-  ) {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("btn").style.display = "block";
   } else {
     document.getElementById("btn").style.display = "none";
@@ -20,10 +17,11 @@ function scrollUp() {
 }
 
 // little script to activate the tooltips
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+$(function() {
+  $('[data-toggle="tooltip"]').tooltip();
+});
 
+//**********************************************//
 
 //function to toggle body classes
 function changeBodyColor() {
@@ -40,7 +38,6 @@ function changeFooterColor() {
 // function to toggle scroll button class
 function changeScrollButton() {
   let scrollButton = document.getElementById("scrollButton");
-  scrollButton.style.color = scrollButton.style.color == 'white'? 'black':'white';
+  scrollButton.style.color =
+    scrollButton.style.color == "white" ? "black" : "white";
 }
-
-

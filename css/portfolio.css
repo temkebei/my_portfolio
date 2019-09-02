@@ -1,3 +1,5 @@
+/* styling for the main body */
+
 html,
 body {
   font-family: "Roboto", sans-serif;
@@ -5,15 +7,14 @@ body {
 }
 
 .viewMode {
-    background-color:black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .footerMode {
-  background-color:white;
+  background-color: white;
   color: black;
 }
-
 
 .authorName {
   margin-top: 3rem;
@@ -35,10 +36,10 @@ body {
   margin-bottom: 4.375rem;
 }
 
- .projectPic {
+.projectPic {
   overflow: hidden;
   position: relative;
-} 
+}
 
 .projectPic img {
   transition: all 0.4s;
@@ -79,13 +80,13 @@ body {
 
 .fa-linkedin {
   color: #0d77b7;
-} 
+}
 
- .fa-twitter {
+.fa-twitter {
   color: #429cd6;
-} 
+}
 
- .fa-github {
+.fa-github {
   color: #782388;
 }
 
